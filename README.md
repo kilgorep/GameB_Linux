@@ -4,6 +4,8 @@ I have been watching, with great interest, [Ryan Ries'](https://github.com/ryanr
 
 That being said, I've also grown increasingly interested in trying to recreate the project in Linux, so this repo represents that attempt. My initial plan for now is to document my progress episode by episode per the video series.
 
+***
+
 ## Table of Contents
 
 - Episode 1: [Introduction](docs/Episode01.md)
