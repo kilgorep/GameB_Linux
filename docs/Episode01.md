@@ -95,4 +95,4 @@ Running the program with either parameter provided should print the appropriate 
 
 ***
 
-[Table of Contents](../README.md) | Next
+[Table of Contents](../README.md) | [Next](Episode02.md)

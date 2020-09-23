@@ -9,3 +9,4 @@ That being said, I've also grown increasingly interested in trying to recreate t
 ## Table of Contents
 
 - Episode 1: [Introduction](docs/Episode01.md)
+- Episode 2: [Win32 Basics](docs/Episode02.md)

@@ -17,6 +17,9 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
 
     # Allow organization of targets into folders
     set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+
+    # Require libsdl2
+    find_package(SDL2 REQUIRED)
 endif()
 
 add_subdirectory(app)
