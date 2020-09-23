@@ -56,7 +56,7 @@ This set of commands will create a `build` directory within the project, use the
 
 ### ASCII vs Unicode
 
-We will also make the choice to stick with the ASCII character set throughout the project as Ryan has done. However, his demonstration of the difference between ASCII and Unicode strings via the `OutputDebugStringA` and `OutputDebugStringW` functions will not directly translate to Linux for a couple of reasons. First of all, these functions are both part of the Win32 API included with `windows.h`, which is not available or useable in Linux. I have instead put together a similar example illustrating the difference using standard library functions.
+We will also make the choice to stick with the ASCII character set throughout the project as Ryan has done. However, his demonstration of the difference between ASCII and Unicode strings via the `OutputDebugStringA` and `OutputDebugStringW` functions will not directly translate to Linux for a couple of reasons. First of all, these functions are both part of the Win32 API included with `windows.h`, which is not available or useable in Linux. Also, the system debugger output which these functions write to does not exist in Linux. I have instead put together a similar example illustrating the difference using standard library functions. It should be noted that mixing calls to printf and wprintf in a single program results in [undefined behavior per the C standard](https://stackoverflow.com/a/8682010), so that is why the calls are wrapped inside the switch block.
 
     #include <stdio.h>
     #include <wchar.h>
